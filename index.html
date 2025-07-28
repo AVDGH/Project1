@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crypto Prices</title>
     <p>API calls to Coin Gecko using Rust, Yew and WebAssembly</p>
-<link rel="modulepreload" href="/Project1/listing-d453096c97475039.js" crossorigin="anonymous" integrity="sha384-ANxFggZKujoYeMEfbQR9zaRXdDtq+M+l56B0unXdmbGEkSCWQIqPlsjJquflcKA2"><link rel="preload" href="/Project1/listing-d453096c97475039_bg.wasm" crossorigin="anonymous" integrity="sha384-dbIfGrrBBfdSof4QvMShnS/RL4b3KGGEKoP7P1OXCdvQHrpWMD5gB64GU20CD0Bw" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="/listing-d453096c97475039.js" crossorigin="anonymous" integrity="sha384-ANxFggZKujoYeMEfbQR9zaRXdDtq+M+l56B0unXdmbGEkSCWQIqPlsjJquflcKA2"><link rel="preload" href="/Project1/listing-d453096c97475039_bg.wasm" crossorigin="anonymous" integrity="sha384-dbIfGrrBBfdSof4QvMShnS/RL4b3KGGEKoP7P1OXCdvQHrpWMD5gB64GU20CD0Bw" as="fetch" type="application/wasm"></head>
 <body>
     <script type="module">
         import init from "./pkg/listing.js";
@@ -14,8 +14,8 @@
     </script>
 
 <script type="module">
-import init, * as bindings from '/Project1/listing-d453096c97475039.js';
-const wasm = await init({ module_or_path: '/Project1/listing-d453096c97475039_bg.wasm' });
+import init, * as bindings from '/listing-d453096c97475039.js';
+const wasm = await init({ module_or_path: '/listing-d453096c97475039_bg.wasm' });
 
 
 window.wasmBindings = bindings;
